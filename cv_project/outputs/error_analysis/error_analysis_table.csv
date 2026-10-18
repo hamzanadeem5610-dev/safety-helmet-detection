@@ -1,0 +1,13 @@
+#,Image,Actual Object,Model Prediction,Error Type,Possible Reason
+1,hard_hat_workers1029.jpg,person,not detected,False negative,Occlusion / crowded scene
+2,hard_hat_workers4352.jpg,helmet,not detected,False negative,Poor lighting; Partially visible at image edge
+3,hard_hat_workers1604.jpg,no_helmet,not detected,False negative,Partially visible at image edge
+4,hard_hat_workers3408.jpg,person,not detected,False negative,Partially visible at image edge
+5,hard_hat_workers3110.jpg,nothing (background),helmet (0.83),False positive,Poor lighting; Partially visible at image edge; Likely missing label (annotation mistake)
+6,hard_hat_workers2080.jpg,nothing (background),person (0.78),False positive,Likely missing label (annotation mistake); Inconsistent person labels in source data
+7,hard_hat_workers306.jpg,nothing (background),no_helmet (0.73),False positive,Small object; Likely missing label (annotation mistake)
+8,hard_hat_workers43.jpg,helmet,no_helmet (0.82),Wrong class,Similar appearance (cap/hair/hood vs helmet)
+9,hard_hat_workers3593.jpg,person,helmet (0.49),Wrong class,Occlusion / crowded scene; Partially visible at image edge; Similar appearance (cap/hair/hood vs helmet)
+10,hard_hat_workers447.jpg,no_helmet,helmet (0.38),Wrong class,Similar appearance (cap/hair/hood vs helmet)
+11,hard_hat_workers739.jpg,helmet,helmet (0.79),Poor bounding box,Occlusion / crowded scene; Partially visible at image edge; Box boundary ambiguity / loose annotation
+12,hard_hat_workers3684.jpg,no_helmet,no_helmet (0.59),Poor bounding box,Partially visible at image edge; Box boundary ambiguity / loose annotation

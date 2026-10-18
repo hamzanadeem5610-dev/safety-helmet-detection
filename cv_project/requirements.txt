@@ -1,0 +1,14 @@
+ultralytics>=8.3.0
+torch>=2.0
+opencv-python>=4.8
+numpy
+pandas
+matplotlib
+pillow
+pyyaml
+imagehash
+kagglehub
+fpdf2>=2.7
+tabulate
+streamlit>=1.30
+gradio>=4.0

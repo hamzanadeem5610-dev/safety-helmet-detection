@@ -1,0 +1,16 @@
+{
+  "name": "yolov8n_baseline",
+  "weights": "yolov8n.pt",
+  "epochs": 50,
+  "imgsz": 640,
+  "batch": 16,
+  "optimizer": "AdamW",
+  "lr0": 0.001429,
+  "gpu": "Tesla T4",
+  "train_minutes": 6.9,
+  "run_dir": "/content/drive/MyDrive/cv_project/outputs/training_results/yolov8n_baseline",
+  "best_pt": "/content/drive/MyDrive/cv_project/outputs/training_results/yolov8n_baseline/weights/best.pt",
+  "best_epoch": 49,
+  "val_mAP50": 0.7171,
+  "val_mAP50_95": 0.4547
+}

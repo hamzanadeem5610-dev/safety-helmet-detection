@@ -1,0 +1,366 @@
+{
+  "data_collection": {
+    "source": "Kaggle: andrewmvd/hard-hat-detection (Hard Hat Workers, MakeML) - CC0 public domain",
+    "raw_images": 5000,
+    "unique_after_dedup": 4908,
+    "duplicates_removed": 92,
+    "degenerate_boxes_removed": 11,
+    "duplicate_boxes_removed": 0,
+    "images selected": 500,
+    "boxes: helmet": 1737,
+    "boxes: no_helmet": 1533,
+    "boxes: person": 751,
+    "images containing helmet": 380,
+    "images containing no_helmet": 270,
+    "images containing person": 158,
+    "images tagged small": 233,
+    "images tagged dark": 78,
+    "images tagged blurry": 100,
+    "images tagged crowded": 225,
+    "images tagged easy": 119
+  },
+  "annotation": {
+    "tool": "Roboflow Annotate",
+    "manual_images": 0,
+    "manual_batch_prepared": 120,
+    "manual_done": false
+  },
+  "split": [
+    {
+      "split": "train",
+      "images": 349,
+      "manual_images": 0,
+      "helmet": 1183,
+      "no_helmet": 1034,
+      "person": 525,
+      "% of images": 69.8
+    },
+    {
+      "split": "val",
+      "images": 100,
+      "manual_images": 0,
+      "helmet": 326,
+      "no_helmet": 326,
+      "person": 127,
+      "% of images": 20.0
+    },
+    {
+      "split": "test",
+      "images": 51,
+      "manual_images": 0,
+      "helmet": 228,
+      "no_helmet": 173,
+      "person": 99,
+      "% of images": 10.2
+    }
+  ],
+  "training": {
+    "experiments": [
+      {
+        "name": "yolov8n_baseline",
+        "weights": "yolov8n.pt",
+        "epochs": 50,
+        "imgsz": 640,
+        "batch": 16,
+        "optimizer": "AdamW",
+        "lr0": 0.001429,
+        "gpu": "Tesla T4",
+        "train_minutes": 6.9,
+        "run_dir": "/content/drive/MyDrive/cv_project/outputs/training_results/yolov8n_baseline",
+        "best_pt": "/content/drive/MyDrive/cv_project/outputs/training_results/yolov8n_baseline/weights/best.pt",
+        "best_epoch": 49,
+        "val_mAP50": 0.7171,
+        "val_mAP50_95": 0.4547
+      },
+      {
+        "name": "yolov8s_exp2",
+        "weights": "yolov8s.pt",
+        "epochs": 50,
+        "imgsz": 640,
+        "batch": 16,
+        "optimizer": "AdamW",
+        "lr0": 0.001429,
+        "gpu": "Tesla T4",
+        "train_minutes": 6.5,
+        "run_dir": "/content/drive/MyDrive/cv_project/outputs/training_results/yolov8s_exp2",
+        "best_pt": "/content/drive/MyDrive/cv_project/outputs/training_results/yolov8s_exp2/weights/best.pt",
+        "best_epoch": 47,
+        "val_mAP50": 0.7221,
+        "val_mAP50_95": 0.4512
+      }
+    ],
+    "best_experiment": "yolov8n_baseline"
+  },
+  "evaluation": {
+    "overall": [
+      {
+        "split": "val",
+        "precision": 0.679,
+        "recall": 0.7257,
+        "mAP50": 0.717,
+        "mAP50_95": 0.4536
+      },
+      {
+        "split": "test",
+        "precision": 0.7268,
+        "recall": 0.6549,
+        "mAP50": 0.679,
+        "mAP50_95": 0.401
+      }
+    ],
+    "per_class": [
+      {
+        "split": "val",
+        "cls": "helmet",
+        "instances": 326,
+        "precision": 0.8317,
+        "recall": 0.864,
+        "mAP50": 0.9096,
+        "mAP50_95": 0.5878
+      },
+      {
+        "split": "val",
+        "cls": "no_helmet",
+        "instances": 326,
+        "precision": 0.8152,
+        "recall": 0.8957,
+        "mAP50": 0.9151,
+        "mAP50_95": 0.5909
+      },
+      {
+        "split": "val",
+        "cls": "person",
+        "instances": 127,
+        "precision": 0.3902,
+        "recall": 0.4173,
+        "mAP50": 0.3264,
+        "mAP50_95": 0.182
+      },
+      {
+        "split": "test",
+        "cls": "helmet",
+        "instances": 228,
+        "precision": 0.8496,
+        "recall": 0.793,
+        "mAP50": 0.8563,
+        "mAP50_95": 0.5041
+      },
+      {
+        "split": "test",
+        "cls": "no_helmet",
+        "instances": 173,
+        "precision": 0.828,
+        "recall": 0.9191,
+        "mAP50": 0.9215,
+        "mAP50_95": 0.5774
+      },
+      {
+        "split": "test",
+        "cls": "person",
+        "instances": 99,
+        "precision": 0.5029,
+        "recall": 0.2525,
+        "mAP50": 0.2591,
+        "mAP50_95": 0.1216
+      }
+    ],
+    "best_experiment": "yolov8n_baseline"
+  },
+  "confusions": [
+    {
+      "count": 78,
+      "true": "person",
+      "predicted": "background"
+    },
+    {
+      "count": 43,
+      "true": "helmet",
+      "predicted": "background"
+    },
+    {
+      "count": 25,
+      "true": "background",
+      "predicted": "helmet"
+    },
+    {
+      "count": 22,
+      "true": "background",
+      "predicted": "person"
+    },
+    {
+      "count": 20,
+      "true": "background",
+      "predicted": "no_helmet"
+    },
+    {
+      "count": 14,
+      "true": "no_helmet",
+      "predicted": "background"
+    }
+  ],
+  "interpretation": {
+    "best_class": "no_helmet",
+    "worst_class": "person",
+    "train_instances": {
+      "helmet": 1183,
+      "no_helmet": 1034,
+      "person": 525
+    },
+    "median_box_pct": {
+      "helmet": 0.5131241864,
+      "no_helmet": 0.39409373150000004,
+      "person": 4.0449391642000005
+    },
+    "text": "\n**Best class:** `no_helmet` \u2014 test mAP@0.5:0.95 = 0.577, mAP@0.5 = 0.922\n(1034 training instances; median box = 0.39% of the image).\n\n**Worst class:** `person` \u2014 test mAP@0.5:0.95 = 0.122, mAP@0.5 = 0.259\n(525 training instances; median box = 4.04% of the image).\n\n**Training instances per class:** helmet: 1183, no_helmet: 1034, person: 525\n\n**Why the model makes mistakes (evidence from this run):**\n- **Class imbalance** \u2014 `helmet` has 1183 training boxes vs 525 for `person`, so the model sees far fewer examples of the rarer class.\n- **Small objects** \u2014 heads and helmets in crowd / far-away shots cover a tiny fraction of the image (median helmet box \u2248 0.51% of the image), leaving few pixels to tell a helmet from hair or a cap.\n- **Look-alikes** \u2014 caps, hoods, hair and headscarves resemble helmets at low resolution, causing `no_helmet \u2194 helmet` swaps.\n- **Inconsistent `person` labels in the public source data** \u2014 many people in the original dataset were never labelled as `person`, so a correct `person` detection is sometimes scored as a false positive. The manual annotation batch fixes this for the hand-labelled images.\n- **Lighting / blur** \u2014 dark and motion-blurred images reduce contrast at object edges (see error analysis, Phase 10).\n"
+  },
+  "inference": {
+    "n_prediction_images": 51,
+    "conf": 0.35,
+    "status_counts": {
+      "VIOLATION": 31,
+      "COMPLIANT": 20
+    },
+    "pred_dir": "/content/drive/MyDrive/cv_project/outputs/predictions/test_predictions"
+  },
+  "video": {
+    "input": "/content/drive/MyDrive/cv_project/videos/demo_input_from_test_images.mp4",
+    "output": "/content/drive/MyDrive/cv_project/outputs/demo_results/demo_input_from_test_images_detections.mp4",
+    "frames": 300,
+    "fps": 55.8,
+    "violation_frames": 210,
+    "user_video": true
+  },
+  "error_counts": {
+    "types": {
+      "False negative": 140,
+      "False positive": 78,
+      "Poor bounding box": 7,
+      "Wrong class": 6
+    },
+    "causes": {
+      "Occlusion / crowded scene": 48,
+      "Partially visible at image edge": 83,
+      "Poor lighting": 13,
+      "Small object": 98,
+      "Likely missing label (annotation mistake)": 24,
+      "Inconsistent person labels in source data": 24,
+      "Similar appearance (cap/hair/hood vs helmet)": 6,
+      "Unusual pose or appearance": 27,
+      "Box boundary ambiguity / loose annotation": 7
+    },
+    "totals": {
+      "tp": 347,
+      "gt": 500,
+      "pred": 438
+    }
+  },
+  "error_analysis": {
+    "table": [
+      {
+        "#": 1,
+        "Image": "hard_hat_workers1029.jpg",
+        "Actual Object": "person",
+        "Model Prediction": "not detected",
+        "Error Type": "False negative",
+        "Possible Reason": "Occlusion / crowded scene"
+      },
+      {
+        "#": 2,
+        "Image": "hard_hat_workers4352.jpg",
+        "Actual Object": "helmet",
+        "Model Prediction": "not detected",
+        "Error Type": "False negative",
+        "Possible Reason": "Poor lighting; Partially visible at image edge"
+      },
+      {
+        "#": 3,
+        "Image": "hard_hat_workers1604.jpg",
+        "Actual Object": "no_helmet",
+        "Model Prediction": "not detected",
+        "Error Type": "False negative",
+        "Possible Reason": "Partially visible at image edge"
+      },
+      {
+        "#": 4,
+        "Image": "hard_hat_workers3408.jpg",
+        "Actual Object": "person",
+        "Model Prediction": "not detected",
+        "Error Type": "False negative",
+        "Possible Reason": "Partially visible at image edge"
+      },
+      {
+        "#": 5,
+        "Image": "hard_hat_workers3110.jpg",
+        "Actual Object": "nothing (background)",
+        "Model Prediction": "helmet (0.83)",
+        "Error Type": "False positive",
+        "Possible Reason": "Poor lighting; Partially visible at image edge; Likely missing label (annotation mistake)"
+      },
+      {
+        "#": 6,
+        "Image": "hard_hat_workers2080.jpg",
+        "Actual Object": "nothing (background)",
+        "Model Prediction": "person (0.78)",
+        "Error Type": "False positive",
+        "Possible Reason": "Likely missing label (annotation mistake); Inconsistent person labels in source data"
+      },
+      {
+        "#": 7,
+        "Image": "hard_hat_workers306.jpg",
+        "Actual Object": "nothing (background)",
+        "Model Prediction": "no_helmet (0.73)",
+        "Error Type": "False positive",
+        "Possible Reason": "Small object; Likely missing label (annotation mistake)"
+      },
+      {
+        "#": 8,
+        "Image": "hard_hat_workers43.jpg",
+        "Actual Object": "helmet",
+        "Model Prediction": "no_helmet (0.82)",
+        "Error Type": "Wrong class",
+        "Possible Reason": "Similar appearance (cap/hair/hood vs helmet)"
+      },
+      {
+        "#": 9,
+        "Image": "hard_hat_workers3593.jpg",
+        "Actual Object": "person",
+        "Model Prediction": "helmet (0.49)",
+        "Error Type": "Wrong class",
+        "Possible Reason": "Occlusion / crowded scene; Partially visible at image edge; Similar appearance (cap/hair/hood vs helmet)"
+      },
+      {
+        "#": 10,
+        "Image": "hard_hat_workers447.jpg",
+        "Actual Object": "no_helmet",
+        "Model Prediction": "helmet (0.38)",
+        "Error Type": "Wrong class",
+        "Possible Reason": "Similar appearance (cap/hair/hood vs helmet)"
+      },
+      {
+        "#": 11,
+        "Image": "hard_hat_workers739.jpg",
+        "Actual Object": "helmet",
+        "Model Prediction": "helmet (0.79)",
+        "Error Type": "Poor bounding box",
+        "Possible Reason": "Occlusion / crowded scene; Partially visible at image edge; Box boundary ambiguity / loose annotation"
+      },
+      {
+        "#": 12,
+        "Image": "hard_hat_workers3684.jpg",
+        "Actual Object": "no_helmet",
+        "Model Prediction": "no_helmet (0.59)",
+        "Error Type": "Poor bounding box",
+        "Possible Reason": "Partially visible at image edge; Box boundary ambiguity / loose annotation"
+      }
+    ],
+    "improvements": [
+      "Add more training images for the weakest class `person` (test mAP@0.5:0.95 = 0.12) and rebalance classes with targeted collection.",
+      "Small objects caused 98 errors: train at a higher resolution (imgsz=960) or use tiled/SAHI inference for far-away workers.",
+      "Re-annotate the public images with missing labels (especially `person`) using the same guidelines as my manual batch - the audit showed the source labels are incomplete.",
+      "Collect more low-light and motion-blurred site images and enable stronger brightness/blur augmentation.",
+      "Add hard-negative examples of caps, hoods and headscarves labelled `no_helmet` to reduce helmet / no_helmet confusion.",
+      "Train a larger model (YOLOv8m) for more epochs with cosine LR, and tune the confidence threshold per class to favour no_helmet recall.",
+      "Test on real CCTV footage from local sites and add tracking (ByteTrack) so one violation is counted once per person, not once per frame."
+    ]
+  }
+}

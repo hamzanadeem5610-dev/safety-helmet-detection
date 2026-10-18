@@ -1,0 +1,232 @@
+image,actual,predicted,error_type,iou,conf,rel_area,causes
+hard_hat_workers1029.jpg,person,not detected,False negative,0.0,0.0,0.33426187499999993,Occlusion / crowded scene
+hard_hat_workers1029.jpg,person,not detected,False negative,0.0,0.0,0.106000984152,Occlusion / crowded scene; Partially visible at image edge
+hard_hat_workers1211.jpg,nothing (background),helmet (0.47),False positive,0.0,0.46750184893608093,0.00882117834828075,Poor lighting
+hard_hat_workers1332.jpg,nothing (background),no_helmet (0.66),False positive,0.0,0.6608392000198364,0.00185546986353575,Small object; Likely missing label (annotation mistake)
+hard_hat_workers1332.jpg,nothing (background),person (0.41),False positive,0.0,0.40614184737205505,0.009763012219130202,Partially visible at image edge; Inconsistent person labels in source data
+hard_hat_workers1604.jpg,nothing (background),helmet (0.62),False positive,0.0,0.620765745639801,0.002033326124205434,Small object; Partially visible at image edge; Likely missing label (annotation mistake)
+hard_hat_workers1604.jpg,no_helmet,not detected,False negative,0.0,0.0,0.02133412500000001,Partially visible at image edge
+hard_hat_workers1709.jpg,nothing (background),person (0.50),False positive,0.0,0.4983038902282715,0.019707149342924606,Inconsistent person labels in source data
+hard_hat_workers173.jpg,helmet,no_helmet (0.58),Wrong class,0.66,0.584082841873169,0.0010542187499999996,Small object; Poor lighting; Similar appearance (cap/hair/hood vs helmet)
+hard_hat_workers173.jpg,nothing (background),person (0.54),False positive,0.0,0.5394905209541321,0.0128665766029727,Poor lighting; Partially visible at image edge; Inconsistent person labels in source data
+hard_hat_workers173.jpg,nothing (background),no_helmet (0.43),False positive,0.0,0.42748355865478516,0.0012169350844302342,Small object; Poor lighting
+hard_hat_workers173.jpg,nothing (background),person (0.41),False positive,0.0,0.41048264503479004,0.09120499259587057,Poor lighting; Partially visible at image edge; Inconsistent person labels in source data
+hard_hat_workers173.jpg,nothing (background),helmet (0.39),False positive,0.0,0.39149168133735657,0.0006447900636781929,Small object; Poor lighting
+hard_hat_workers173.jpg,nothing (background),no_helmet (0.35),False positive,0.0,0.35239699482917786,0.0005339795710785773,Small object; Poor lighting
+hard_hat_workers1811.jpg,nothing (background),person (0.64),False positive,0.1,0.6359611749649048,0.02974996806263539,Partially visible at image edge; Likely missing label (annotation mistake); Inconsistent person labels in source data
+hard_hat_workers1811.jpg,nothing (background),person (0.62),False positive,0.1,0.6185223460197449,0.014419281040752576,Likely missing label (annotation mistake); Inconsistent person labels in source data
+hard_hat_workers1811.jpg,nothing (background),person (0.61),False positive,0.1,0.6135781407356262,0.016074146003548093,Likely missing label (annotation mistake); Inconsistent person labels in source data
+hard_hat_workers1811.jpg,nothing (background),helmet (0.59),False positive,0.0,0.5861943960189819,0.002229437209225361,Small object
+hard_hat_workers1811.jpg,nothing (background),person (0.47),False positive,0.0,0.46997636556625366,0.005290529752815115,Inconsistent person labels in source data
+hard_hat_workers1811.jpg,nothing (background),helmet (0.46),False positive,0.0,0.4632830023765564,0.008892277579159998,Partially visible at image edge
+hard_hat_workers1811.jpg,nothing (background),helmet (0.44),False positive,0.0,0.44118764996528625,0.0021014610828488265,Small object
+hard_hat_workers1811.jpg,nothing (background),person (0.43),False positive,0.0,0.428350031375885,0.006818623386379124,Partially visible at image edge; Inconsistent person labels in source data
+hard_hat_workers1811.jpg,nothing (background),person (0.36),False positive,0.0,0.3611277639865875,0.017165137398693464,Inconsistent person labels in source data
+hard_hat_workers1811.jpg,helmet,not detected,False negative,0.0,0.0,0.0008920329240000003,Small object
+hard_hat_workers1811.jpg,helmet,not detected,False negative,0.0,0.0,0.0012106085379999972,Small object; Partially visible at image edge
+hard_hat_workers1811.jpg,helmet,not detected,False negative,0.0,0.0,0.0008920329240000003,Small object
+hard_hat_workers1811.jpg,helmet,not detected,False negative,0.0,0.0,0.0007414319739999999,Small object; Partially visible at image edge
+hard_hat_workers1849.jpg,nothing (background),helmet (0.69),False positive,0.07,0.6935270428657532,0.00056743445278668,Small object; Likely missing label (annotation mistake)
+hard_hat_workers1849.jpg,person,not detected,False negative,0.0,0.0,0.23911035273400003,Unusual pose or appearance
+hard_hat_workers1849.jpg,person,not detected,False negative,0.0,0.0,0.007506883040000011,Unusual pose or appearance
+hard_hat_workers1849.jpg,person,not detected,False negative,0.0,0.0,0.09213384877199997,Partially visible at image edge
+hard_hat_workers1849.jpg,person,not detected,False negative,0.0,0.0,0.0069508836480000015,Partially visible at image edge
+hard_hat_workers1926.jpg,nothing (background),helmet (0.68),False positive,0.0,0.6776288151741028,0.006117659850289288,Likely missing label (annotation mistake)
+hard_hat_workers1926.jpg,nothing (background),helmet (0.55),False positive,0.0,0.5538279414176941,0.004597700339791311,Unusual pose or appearance
+hard_hat_workers1926.jpg,nothing (background),no_helmet (0.44),False positive,0.0,0.4399245083332062,0.0022850552112914702,Small object; Partially visible at image edge
+hard_hat_workers1926.jpg,no_helmet,not detected,False negative,0.0,0.0,0.005195745087999997,Unusual pose or appearance
+hard_hat_workers1926.jpg,no_helmet,not detected,False negative,0.0,0.0,0.003336386051999997,Partially visible at image edge
+hard_hat_workers2080.jpg,nothing (background),person (0.78),False positive,0.04,0.7836827039718628,0.12090214034387343,Likely missing label (annotation mistake); Inconsistent person labels in source data
+hard_hat_workers2080.jpg,nothing (background),person (0.75),False positive,0.0,0.7472622394561768,0.13409011106521915,Likely missing label (annotation mistake); Inconsistent person labels in source data
+hard_hat_workers2080.jpg,nothing (background),person (0.72),False positive,0.0,0.7190606594085693,0.09792623234322098,Partially visible at image edge; Likely missing label (annotation mistake); Inconsistent person labels in source data
+hard_hat_workers2080.jpg,nothing (background),person (0.62),False positive,0.0,0.6182247400283813,0.10493928890529529,Likely missing label (annotation mistake); Inconsistent person labels in source data
+hard_hat_workers2080.jpg,nothing (background),helmet (0.42),False positive,0.0,0.41904839873313904,0.0038036558954519686,Partially visible at image edge
+hard_hat_workers2409.jpg,nothing (background),helmet (0.75),False positive,0.0,0.7497749924659729,0.013939378478553893,Likely missing label (annotation mistake)
+hard_hat_workers2409.jpg,nothing (background),helmet (0.47),False positive,0.0,0.4669187068939209,0.00781373814196941,Partially visible at image edge
+hard_hat_workers2409.jpg,person,not detected,False negative,0.0,0.0,0.051104833210000006,Partially visible at image edge
+hard_hat_workers2409.jpg,person,not detected,False negative,0.0,0.0,0.026315145710000005,Partially visible at image edge
+hard_hat_workers2525.jpg,nothing (background),no_helmet (0.72),False positive,0.0,0.7232489585876465,0.0009168712158132417,Small object; Likely missing label (annotation mistake)
+hard_hat_workers2525.jpg,nothing (background),no_helmet (0.64),False positive,0.0,0.6436622738838196,0.0021425033058030405,Small object; Likely missing label (annotation mistake)
+hard_hat_workers2525.jpg,no_helmet,not detected,False negative,0.0,0.0,0.003249529575999999,Occlusion / crowded scene; Partially visible at image edge
+hard_hat_workers2525.jpg,no_helmet,not detected,False negative,0.0,0.0,0.002264817632,Small object; Occlusion / crowded scene; Partially visible at image edge
+hard_hat_workers266.jpg,nothing (background),no_helmet (0.68),False positive,0.03,0.6756880879402161,0.000934348008915829,Small object; Likely missing label (annotation mistake)
+hard_hat_workers266.jpg,no_helmet,no_helmet (0.35),Poor bounding box,0.48,0.3515746295452118,0.0008089748520000028,Small object; Box boundary ambiguity / loose annotation
+hard_hat_workers266.jpg,no_helmet,not detected,False negative,0.0,0.0,0.0013521562500000011,Small object; Occlusion / crowded scene
+hard_hat_workers2701.jpg,nothing (background),no_helmet (0.55),False positive,0.0,0.5481739640235901,0.0013437359049511054,Small object
+hard_hat_workers2701.jpg,nothing (background),person (0.35),False positive,0.0,0.35239654779434204,0.041148399913470864,Partially visible at image edge; Inconsistent person labels in source data
+hard_hat_workers2722.jpg,helmet,not detected,False negative,0.0,0.0,0.005931378684000004,Unusual pose or appearance
+hard_hat_workers2933.jpg,nothing (background),helmet (0.59),False positive,0.08,0.5911886096000671,0.0020784080730073813,Small object
+hard_hat_workers2933.jpg,nothing (background),helmet (0.58),False positive,0.22,0.5756045579910278,0.0032276435643801625,Unusual pose or appearance
+hard_hat_workers2933.jpg,nothing (background),helmet (0.54),False positive,0.13,0.5426644682884216,0.0017591391368646989,Small object
+hard_hat_workers2933.jpg,nothing (background),helmet (0.51),False positive,0.0,0.5128448009490967,0.0013887123088439201,Small object; Partially visible at image edge
+hard_hat_workers2933.jpg,nothing (background),helmet (0.48),False positive,0.0,0.4829006493091583,0.00198344149406478,Small object; Partially visible at image edge
+hard_hat_workers2933.jpg,helmet,not detected,False negative,0.0,0.0,0.0017724376449999954,Small object
+hard_hat_workers2933.jpg,person,not detected,False negative,0.0,0.0,0.02614692675500002,Unusual pose or appearance
+hard_hat_workers2933.jpg,helmet,not detected,False negative,0.0,0.0,0.0017724376449999944,Small object
+hard_hat_workers2933.jpg,person,not detected,False negative,0.0,0.0,0.014005995087999993,Partially visible at image edge
+hard_hat_workers2936.jpg,nothing (background),helmet (0.70),False positive,0.0,0.7045005559921265,0.0007946376552773962,Small object; Likely missing label (annotation mistake)
+hard_hat_workers2936.jpg,nothing (background),no_helmet (0.50),False positive,0.0,0.4978342056274414,0.0009331510903981734,Small object
+hard_hat_workers2936.jpg,nothing (background),helmet (0.41),False positive,0.0,0.4089524745941162,0.0006023016237779206,Small object
+hard_hat_workers2936.jpg,nothing (background),helmet (0.40),False positive,0.0,0.4030672311782837,0.0008231251509243639,Small object
+hard_hat_workers2936.jpg,nothing (background),helmet (0.36),False positive,0.0,0.35798144340515137,0.0012536065118063874,Small object
+hard_hat_workers2936.jpg,nothing (background),helmet (0.36),False positive,0.0,0.35709601640701294,0.0010815627952850252,Small object
+hard_hat_workers2936.jpg,helmet,not detected,False negative,0.0,0.0,0.0012134959320000023,Small object
+hard_hat_workers2936.jpg,helmet,not detected,False negative,0.0,0.0,0.0008320917159999928,Small object
+hard_hat_workers2957.jpg,nothing (background),helmet (0.53),False positive,0.0,0.5306061506271362,0.0021848142064219466,Small object; Partially visible at image edge
+hard_hat_workers3039.jpg,nothing (background),helmet (0.35),False positive,0.08,0.3541751801967621,0.000834873700603986,Small object
+hard_hat_workers3039.jpg,helmet,not detected,False negative,0.0,0.0,0.0024038437499999976,Small object
+hard_hat_workers3039.jpg,helmet,not detected,False negative,0.0,0.0,0.0010516874999999986,Small object
+hard_hat_workers306.jpg,no_helmet,no_helmet (0.83),Poor bounding box,0.31,0.833956778049469,0.0014793254440000029,Small object; Box boundary ambiguity / loose annotation
+hard_hat_workers306.jpg,nothing (background),no_helmet (0.73),False positive,0.25,0.7257302403450012,0.002286694946722158,Small object; Likely missing label (annotation mistake)
+hard_hat_workers306.jpg,nothing (background),no_helmet (0.71),False positive,0.0,0.7140454053878784,0.003227718364547997,Likely missing label (annotation mistake)
+hard_hat_workers306.jpg,no_helmet,no_helmet (0.70),Poor bounding box,0.46,0.6996828317642212,0.003432448040000001,Occlusion / crowded scene; Box boundary ambiguity / loose annotation
+hard_hat_workers306.jpg,nothing (background),no_helmet (0.63),False positive,0.0,0.626634418964386,0.0020238271873484655,Small object; Likely missing label (annotation mistake)
+hard_hat_workers306.jpg,nothing (background),no_helmet (0.58),False positive,0.0,0.5800691246986389,0.0019277291200453944,Small object
+hard_hat_workers306.jpg,nothing (background),no_helmet (0.45),False positive,0.0,0.4539683163166046,0.006305369918857582,Unusual pose or appearance
+hard_hat_workers306.jpg,no_helmet,not detected,False negative,0.0,0.0,0.003432448040000001,Occlusion / crowded scene
+hard_hat_workers306.jpg,no_helmet,not detected,False negative,0.0,0.0,0.0060905123889999965,Partially visible at image edge
+hard_hat_workers306.jpg,no_helmet,not detected,False negative,0.0,0.0,0.0015717688609999964,Small object; Partially visible at image edge
+hard_hat_workers3110.jpg,nothing (background),helmet (0.83),False positive,0.0,0.8296154141426086,0.005367746428629079,Poor lighting; Partially visible at image edge; Likely missing label (annotation mistake)
+hard_hat_workers3110.jpg,helmet,not detected,False negative,0.0,0.0,0.008841087462999999,Poor lighting; Partially visible at image edge
+hard_hat_workers3141.jpg,nothing (background),no_helmet (0.42),False positive,0.0,0.4209166169166565,0.034006310955188156,Unusual pose or appearance
+hard_hat_workers3141.jpg,no_helmet,not detected,False negative,0.0,0.0,0.006610562499999998,Occlusion / crowded scene
+hard_hat_workers3360.jpg,helmet,no_helmet (0.82),Wrong class,0.85,0.8154016733169556,0.004189412351999998,Poor lighting; Similar appearance (cap/hair/hood vs helmet)
+hard_hat_workers3360.jpg,nothing (background),no_helmet (0.51),False positive,0.0,0.5113875269889832,0.0007862174418453203,Small object; Poor lighting
+hard_hat_workers3408.jpg,nothing (background),helmet (0.72),False positive,0.0,0.7218390703201294,0.052208273670375234,Partially visible at image edge; Likely missing label (annotation mistake)
+hard_hat_workers3408.jpg,person,not detected,False negative,0.0,0.0,0.27615792456000005,Partially visible at image edge
+hard_hat_workers3408.jpg,person,not detected,False negative,0.0,0.0,0.095012698326,Occlusion / crowded scene; Partially visible at image edge
+hard_hat_workers3519.jpg,no_helmet,not detected,False negative,0.0,0.0,0.0014075730480000007,Small object; Partially visible at image edge
+hard_hat_workers357.jpg,nothing (background),no_helmet (0.46),False positive,0.08,0.45841261744499207,0.005913364338499526,Unusual pose or appearance
+hard_hat_workers357.jpg,helmet,not detected,False negative,0.0,0.0,0.0011295312499999988,Small object
+hard_hat_workers357.jpg,helmet,not detected,False negative,0.0,0.0,0.0009731198099999968,Small object
+hard_hat_workers3593.jpg,person,helmet (0.49),Wrong class,0.56,0.48909932374954224,0.042261188508000015,Occlusion / crowded scene; Partially visible at image edge; Similar appearance (cap/hair/hood vs helmet)
+hard_hat_workers3593.jpg,helmet,not detected,False negative,0.0,0.0,0.014191309824000008,Unusual pose or appearance
+hard_hat_workers3593.jpg,person,not detected,False negative,0.0,0.0,0.05498164035000004,Occlusion / crowded scene
+hard_hat_workers3593.jpg,person,not detected,False negative,0.0,0.0,0.03303996529199997,Occlusion / crowded scene
+hard_hat_workers3593.jpg,person,not detected,False negative,0.0,0.0,0.16218126763199997,Occlusion / crowded scene
+hard_hat_workers3593.jpg,person,not detected,False negative,0.0,0.0,0.09783930881599999,Occlusion / crowded scene
+hard_hat_workers3593.jpg,person,not detected,False negative,0.0,0.0,0.06005555532900001,Occlusion / crowded scene
+hard_hat_workers3593.jpg,helmet,not detected,False negative,0.0,0.0,0.034007063004,Unusual pose or appearance
+hard_hat_workers3593.jpg,helmet,not detected,False negative,0.0,0.0,0.01752205635999999,Occlusion / crowded scene
+hard_hat_workers3593.jpg,helmet,not detected,False negative,0.0,0.0,0.006255836943999998,Occlusion / crowded scene; Partially visible at image edge
+hard_hat_workers3593.jpg,person,not detected,False negative,0.0,0.0,0.06459121526299999,Occlusion / crowded scene; Partially visible at image edge
+hard_hat_workers3593.jpg,person,not detected,False negative,0.0,0.0,0.03697868772000003,Occlusion / crowded scene; Partially visible at image edge
+hard_hat_workers3593.jpg,person,not detected,False negative,0.0,0.0,0.047277590511999965,Occlusion / crowded scene; Partially visible at image edge
+hard_hat_workers3593.jpg,person,not detected,False negative,0.0,0.0,0.03371168599400001,Occlusion / crowded scene; Partially visible at image edge
+hard_hat_workers3593.jpg,helmet,not detected,False negative,0.0,0.0,0.034007063004,Occlusion / crowded scene; Partially visible at image edge
+hard_hat_workers3684.jpg,no_helmet,no_helmet (0.59),Poor bounding box,0.38,0.5926112532615662,0.009823412351999997,Partially visible at image edge; Box boundary ambiguity / loose annotation
+hard_hat_workers3684.jpg,no_helmet,not detected,False negative,0.0,0.0,0.006627868898000005,Occlusion / crowded scene
+hard_hat_workers3684.jpg,no_helmet,not detected,False negative,0.0,0.0,0.0013406314720000015,Small object; Partially visible at image edge
+hard_hat_workers3832.jpg,person,person (0.39),Poor bounding box,0.39,0.38780921697616577,0.020143837277999982,Partially visible at image edge; Box boundary ambiguity / loose annotation
+hard_hat_workers3832.jpg,helmet,not detected,False negative,0.0,0.0,0.00020802292900000066,Small object
+hard_hat_workers3832.jpg,helmet,not detected,False negative,0.0,0.0,0.00013867714499999945,Small object
+hard_hat_workers3832.jpg,helmet,not detected,False negative,0.0,0.0,0.00011556268499999987,Small object
+hard_hat_workers3832.jpg,person,not detected,False negative,0.0,0.0,0.0008320917159999987,Small object
+hard_hat_workers3832.jpg,person,not detected,False negative,0.0,0.0,0.0008089916790000008,Small object
+hard_hat_workers3832.jpg,person,not detected,False negative,0.0,0.0,0.00517756213,Unusual pose or appearance
+hard_hat_workers3832.jpg,person,not detected,False negative,0.0,0.0,0.0021033750000000015,Small object; Occlusion / crowded scene
+hard_hat_workers3832.jpg,person,not detected,False negative,0.0,0.0,0.002634966715999987,Small object
+hard_hat_workers3832.jpg,person,not detected,False negative,0.0,0.0,0.0015255375369999959,Small object
+hard_hat_workers3832.jpg,helmet,not detected,False negative,0.0,0.0,0.0003236000370000002,Small object
+hard_hat_workers3832.jpg,helmet,not detected,False negative,0.0,0.0,0.0003236000370000019,Small object
+hard_hat_workers3832.jpg,helmet,not detected,False negative,0.0,0.0,0.00032360003700000013,Small object; Occlusion / crowded scene
+hard_hat_workers3832.jpg,helmet,not detected,False negative,0.0,0.0,0.0003236000369999968,Small object; Occlusion / crowded scene
+hard_hat_workers3832.jpg,helmet,not detected,False negative,0.0,0.0,0.0005200621299999998,Small object
+hard_hat_workers3832.jpg,helmet,not detected,False negative,0.0,0.0,0.000520062130000003,Small object
+hard_hat_workers3832.jpg,helmet,not detected,False negative,0.0,0.0,0.0010401290679999966,Small object
+hard_hat_workers3832.jpg,helmet,not detected,False negative,0.0,0.0,0.0012134959319999971,Small object
+hard_hat_workers3832.jpg,helmet,not detected,False negative,0.0,0.0,0.0012134959319999976,Small object
+hard_hat_workers3832.jpg,helmet,not detected,False negative,0.0,0.0,0.0002080229290000009,Small object
+hard_hat_workers3832.jpg,helmet,not detected,False negative,0.0,0.0,0.00020802292900000166,Small object
+hard_hat_workers3832.jpg,helmet,not detected,False negative,0.0,0.0,0.00020802292900000115,Small object
+hard_hat_workers3832.jpg,helmet,not detected,False negative,0.0,0.0,0.00020802292900000361,Small object
+hard_hat_workers3832.jpg,helmet,not detected,False negative,0.0,0.0,0.00013867714500000042,Small object
+hard_hat_workers3832.jpg,helmet,not detected,False negative,0.0,0.0,0.0001155626850000002,Small object
+hard_hat_workers3832.jpg,person,not detected,False negative,0.0,0.0,0.0035133498519999986,Unusual pose or appearance
+hard_hat_workers3832.jpg,person,not detected,False negative,0.0,0.0,0.0035133498519999986,Unusual pose or appearance
+hard_hat_workers3832.jpg,person,not detected,False negative,0.0,0.0,0.0008320917159999995,Small object
+hard_hat_workers3832.jpg,person,not detected,False negative,0.0,0.0,0.0007685395710000015,Small object; Partially visible at image edge
+hard_hat_workers3832.jpg,person,not detected,False negative,0.0,0.0,0.0008089916790000004,Small object
+hard_hat_workers3832.jpg,person,not detected,False negative,0.0,0.0,0.0006472000740000004,Small object; Partially visible at image edge
+hard_hat_workers3832.jpg,person,not detected,False negative,0.0,0.0,0.003831093749999995,Partially visible at image edge
+hard_hat_workers3832.jpg,person,not detected,False negative,0.0,0.0,0.005177562129999994,Unusual pose or appearance
+hard_hat_workers3832.jpg,person,not detected,False negative,0.0,0.0,0.0021033750000000006,Small object; Occlusion / crowded scene
+hard_hat_workers3832.jpg,person,not detected,False negative,0.0,0.0,0.002103374999999997,Small object; Occlusion / crowded scene
+hard_hat_workers3832.jpg,person,not detected,False negative,0.0,0.0,0.002634966715999986,Small object
+hard_hat_workers3832.jpg,person,not detected,False negative,0.0,0.0,0.002634966715999985,Small object
+hard_hat_workers3832.jpg,person,not detected,False negative,0.0,0.0,0.0015255375369999972,Small object
+hard_hat_workers3832.jpg,person,not detected,False negative,0.0,0.0,0.0015255375369999959,Small object
+hard_hat_workers3832.jpg,person,not detected,False negative,0.0,0.0,0.005732225037000003,Partially visible at image edge
+hard_hat_workers3832.jpg,person,not detected,False negative,0.0,0.0,0.01109460428999998,Unusual pose or appearance
+hard_hat_workers3832.jpg,person,not detected,False negative,0.0,0.0,0.00745416697499999,Partially visible at image edge
+hard_hat_workers3832.jpg,person,not detected,False negative,0.0,0.0,0.02014383727799999,Partially visible at image edge
+hard_hat_workers3877.jpg,nothing (background),person (0.44),False positive,0.0,0.437873512506485,0.013585563797046356,Inconsistent person labels in source data
+hard_hat_workers3877.jpg,nothing (background),person (0.36),False positive,0.0,0.36228445172309875,0.014315046357541978,Inconsistent person labels in source data
+hard_hat_workers3877.jpg,helmet,not detected,False negative,0.0,0.0,0.0036202431359999977,Occlusion / crowded scene
+hard_hat_workers3877.jpg,person,not detected,False negative,0.0,0.0,0.016786285606000005,Occlusion / crowded scene; Partially visible at image edge
+hard_hat_workers3877.jpg,person,not detected,False negative,0.0,0.0,0.019201875,Occlusion / crowded scene; Partially visible at image edge
+hard_hat_workers3974.jpg,helmet,not detected,False negative,0.0,0.0,0.0012770312500000004,Small object
+hard_hat_workers3974.jpg,person,not detected,False negative,0.0,0.0,0.018387083025000014,Unusual pose or appearance
+hard_hat_workers3974.jpg,person,not detected,False negative,0.0,0.0,0.015890824704000002,Unusual pose or appearance
+hard_hat_workers3974.jpg,person,not detected,False negative,0.0,0.0,0.015890824704,Partially visible at image edge
+hard_hat_workers3983.jpg,nothing (background),person (0.48),False positive,0.0,0.4834950268268585,0.18409492738410096,Inconsistent person labels in source data
+hard_hat_workers3983.jpg,nothing (background),person (0.43),False positive,0.0,0.4327332675457001,0.04169774988411528,Partially visible at image edge; Inconsistent person labels in source data
+hard_hat_workers423.jpg,nothing (background),person (0.55),False positive,0.0,0.5499615669250488,0.025828459916883515,Partially visible at image edge; Inconsistent person labels in source data
+hard_hat_workers423.jpg,nothing (background),person (0.38),False positive,0.0,0.3845874071121216,0.05738069763622032,Partially visible at image edge; Inconsistent person labels in source data
+hard_hat_workers43.jpg,helmet,no_helmet (0.82),Wrong class,0.88,0.8224385380744934,0.003686719120000008,Similar appearance (cap/hair/hood vs helmet)
+hard_hat_workers4352.jpg,nothing (background),helmet (0.44),False positive,0.0,0.43642204999923706,0.1730103341741268,Poor lighting; Partially visible at image edge
+hard_hat_workers4352.jpg,helmet,not detected,False negative,0.0,0.0,0.039940883135999965,Poor lighting; Partially visible at image edge
+hard_hat_workers4395.jpg,helmet,helmet (0.66),Poor bounding box,0.38,0.6588653922080994,0.002201109291,Small object; Occlusion / crowded scene; Box boundary ambiguity / loose annotation
+hard_hat_workers4395.jpg,nothing (background),helmet (0.40),False positive,0.23,0.400149941444397,0.004144698341625339,Unusual pose or appearance
+hard_hat_workers4395.jpg,nothing (background),helmet (0.40),False positive,0.16,0.39504244923591614,0.00251481717831404,Small object
+hard_hat_workers4395.jpg,helmet,no_helmet (0.39),Wrong class,0.58,0.3913096487522125,0.00024327274100000146,Small object; Similar appearance (cap/hair/hood vs helmet)
+hard_hat_workers4395.jpg,helmet,not detected,False negative,0.0,0.0,0.00032437407899999773,Small object; Occlusion / crowded scene
+hard_hat_workers4395.jpg,helmet,not detected,False negative,0.0,0.0,0.0002432727410000013,Small object
+hard_hat_workers4395.jpg,person,not detected,False negative,0.0,0.0,0.020435516009999998,Unusual pose or appearance
+hard_hat_workers4395.jpg,person,not detected,False negative,0.0,0.0,0.05114130151200001,Unusual pose or appearance
+hard_hat_workers4395.jpg,person,not detected,False negative,0.0,0.0,0.02221971695999998,Occlusion / crowded scene
+hard_hat_workers4395.jpg,person,not detected,False negative,0.0,0.0,0.022613609795,Occlusion / crowded scene
+hard_hat_workers4395.jpg,person,not detected,False negative,0.0,0.0,0.007813919532000032,Unusual pose or appearance
+hard_hat_workers4395.jpg,person,not detected,False negative,0.0,0.0,0.010634837720000009,Occlusion / crowded scene
+hard_hat_workers4395.jpg,person,not detected,False negative,0.0,0.0,0.0018767713449999936,Small object
+hard_hat_workers4395.jpg,person,not detected,False negative,0.0,0.0,0.002548638612000001,Small object
+hard_hat_workers4395.jpg,person,not detected,False negative,0.0,0.0,0.001981030410000006,Small object
+hard_hat_workers4395.jpg,person,not detected,False negative,0.0,0.0,0.0021374298250000034,Small object; Occlusion / crowded scene
+hard_hat_workers4395.jpg,person,not detected,False negative,0.0,0.0,0.027073548134999972,Partially visible at image edge
+hard_hat_workers4395.jpg,person,not detected,False negative,0.0,0.0,0.005039410768000005,Occlusion / crowded scene; Partially visible at image edge
+hard_hat_workers447.jpg,nothing (background),no_helmet (0.53),False positive,0.0,0.5294750928878784,0.0019662108088972854,Small object
+hard_hat_workers447.jpg,no_helmet,helmet (0.38),Wrong class,0.83,0.3821554183959961,0.004189412351999994,Similar appearance (cap/hair/hood vs helmet)
+hard_hat_workers447.jpg,nothing (background),no_helmet (0.38),False positive,0.0,0.3817215859889984,0.0015494961036728934,Small object; Partially visible at image edge
+hard_hat_workers447.jpg,helmet,not detected,False negative,0.0,0.0,0.003582649963000004,Occlusion / crowded scene
+hard_hat_workers447.jpg,no_helmet,not detected,False negative,0.0,0.0,0.001941600222000004,Small object; Occlusion / crowded scene; Partially visible at image edge
+hard_hat_workers4842.jpg,nothing (background),helmet (0.66),False positive,0.0,0.6614950299263,0.004363929474924018,Partially visible at image edge; Likely missing label (annotation mistake)
+hard_hat_workers4842.jpg,nothing (background),helmet (0.37),False positive,0.0,0.3651183843612671,0.006897887896937488,Partially visible at image edge
+hard_hat_workers4842.jpg,nothing (background),helmet (0.35),False positive,0.0,0.3510560691356659,0.003107718308506022,Partially visible at image edge
+hard_hat_workers4842.jpg,no_helmet,not detected,False negative,0.0,0.0,0.0047152873520000015,Partially visible at image edge
+hard_hat_workers739.jpg,helmet,helmet (0.79),Poor bounding box,0.44,0.7896810173988342,0.017387422891999973,Occlusion / crowded scene; Partially visible at image edge; Box boundary ambiguity / loose annotation
+hard_hat_workers739.jpg,helmet,not detected,False negative,0.0,0.0,0.017387422891999973,Occlusion / crowded scene; Partially visible at image edge
+hard_hat_workers739.jpg,person,not detected,False negative,0.0,0.0,0.065152487056,Occlusion / crowded scene
+hard_hat_workers739.jpg,person,not detected,False negative,0.0,0.0,0.123335816568,Unusual pose or appearance
+hard_hat_workers739.jpg,person,not detected,False negative,0.0,0.0,0.09341492085799986,Occlusion / crowded scene; Partially visible at image edge
+hard_hat_workers739.jpg,person,not detected,False negative,0.0,0.0,0.022455189533999984,Partially visible at image edge
+hard_hat_workers739.jpg,person,not detected,False negative,0.0,0.0,0.02396925036999999,Partially visible at image edge
+hard_hat_workers739.jpg,person,not detected,False negative,0.0,0.0,0.022327916975000004,Occlusion / crowded scene; Partially visible at image edge
+hard_hat_workers739.jpg,person,not detected,False negative,0.0,0.0,0.05342760447499998,Occlusion / crowded scene; Partially visible at image edge
+hard_hat_workers739.jpg,person,not detected,False negative,0.0,0.0,0.020432749999999993,Partially visible at image edge
+hard_hat_workers739.jpg,person,not detected,False negative,0.0,0.0,0.03708044766999999,Partially visible at image edge
+hard_hat_workers739.jpg,person,not detected,False negative,0.0,0.0,0.023922874814999995,Occlusion / crowded scene; Partially visible at image edge
+hard_hat_workers739.jpg,person,not detected,False negative,0.0,0.0,0.023922874815,Partially visible at image edge
+hard_hat_workers843.jpg,person,not detected,False negative,0.0,0.0,0.024038499999999997,Unusual pose or appearance
+hard_hat_workers843.jpg,person,not detected,False negative,0.0,0.0,0.02440831213000001,Partially visible at image edge
+hard_hat_workers843.jpg,person,not detected,False negative,0.0,0.0,0.012082816567999994,Partially visible at image edge
+hard_hat_workers855.jpg,person,not detected,False negative,0.0,0.0,0.013646909708000032,Unusual pose or appearance
+hard_hat_workers855.jpg,person,not detected,False negative,0.0,0.0,0.01230306676899999,Unusual pose or appearance
+hard_hat_workers91.jpg,nothing (background),person (0.73),False positive,0.0,0.7276743650436401,0.11910189999980772,Likely missing label (annotation mistake); Inconsistent person labels in source data
+hard_hat_workers91.jpg,nothing (background),person (0.37),False positive,0.0,0.3738982677459717,0.15555337666748112,Inconsistent person labels in source data
+hard_hat_workers91.jpg,nothing (background),person (0.36),False positive,0.0,0.3551846146583557,0.10399772798792616,Inconsistent person labels in source data
+hard_hat_workers91.jpg,helmet,not detected,False negative,0.0,0.0,0.007072791604999998,Partially visible at image edge
+hard_hat_workers945.jpg,person,not detected,False negative,0.0,0.0,0.07367001054000001,Occlusion / crowded scene; Partially visible at image edge
+hard_hat_workers945.jpg,person,not detected,False negative,0.0,0.0,0.07367001054,Partially visible at image edge
+hard_hat_workers973.jpg,nothing (background),no_helmet (0.65),False positive,0.0,0.6522457599639893,0.0012846265688564857,Small object; Likely missing label (annotation mistake)
+hard_hat_workers973.jpg,nothing (background),no_helmet (0.53),False positive,0.0,0.527176022529602,0.0011086667513822,Small object
+hard_hat_workers973.jpg,nothing (background),no_helmet (0.44),False positive,0.0,0.43846890330314636,0.0025374422102686367,Small object
